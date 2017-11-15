@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^owlangs.com [NC]
+RewriteRule ^(.*)$ http://www.blog.owlangs.com/$1 [L,R=301]
+RedirectMatch 301 ^/blog/(.*)$ http://blog.owlangs.com/$1

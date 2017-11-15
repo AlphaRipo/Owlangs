@@ -1,0 +1,571 @@
+.pojaw {
+	display: block !important;
+}
+.zniknij {
+	display: none !important;
+}
+#lewa .menu ul .jasniejszy span, #nav_bok .menu ul .jasniejszy span {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+.menu ul .active {
+	width: 101%;
+}
+#sownik {
+	width: 96%;
+	margin-left: 2%;
+	height: auto;
+}
+#sownik .navigacja ul {
+	width: 100%;
+	border-bottom: #ccc solid 1px;
+	margin-bottom: -3px;
+}
+#sownik .navigacja ul li {
+	display: inline-block;
+	list-style: none;
+	height: 50px;
+	width: 20%;
+	margin-left: 6%;
+	font-size: 1.1em;
+	font-weight: 700;
+	padding-top: 10px;
+}
+
+#sownik .navigacja ul li:last-child{
+	width: 14%;	
+}
+
+
+#sownik .navigacja ul li img {
+	padding-right: 7%;
+}
+#sownik .navigacja ul li a {
+	color: #666666;
+}
+#sownik .navigacja ul .active a {
+	color: #F7941E;
+}
+#sownik .navigacja ul .active {
+	border-bottom: 4px solid #F7941E;
+}
+#sownik .navigacja ul li a:hover {
+	text-decoration: none;
+}
+#sownik .navigacja ul li:hover {
+	border-bottom: 4px solid #F7941E;
+}
+#sownik .test_name p {
+	color: #999999;
+	font-size: 1.2em;
+	text-align: left;
+	margin: 20px;
+	margin-bottom: 40px;
+}
+/***********SOWNIK ćwiczenia*************/
+
+.progress-bar-warning:last-child.progress-bar:before { height: 39px; }
+
+.flashcard .fiszka{
+	width: 88%;
+	margin-left: 6%;
+	height:350px;
+	background:#b4bfc8;
+	color:#FFFFFF;
+	margin-top:15px;
+}
+	
+.fiszka img:first-child{
+	
+	top:5px;
+	left: 285px;
+	cursor:pointer;
+}
+
+.fiszka img:nth-child(2){
+	
+	top:4px;
+	left: 300px;
+	cursor:pointer;
+}
+
+.fiszka button{
+	background: url(../img/podstrony/back.png) right no-repeat #b4bfc8;
+	border:none;
+	padding-right:40px;
+	margin-top: 100px;
+}
+
+.fiszka p{
+	font-size:2.8em;
+	font-weight: 700;
+	
+	top:25%;
+}
+
+
+.prev{
+	background:url(../img/podstrony/left.png) center no-repeat;
+	width:30px;
+	height:30px;
+	display:inline-block;
+}
+.next{
+	background:url(../img/podstrony/right.png) center no-repeat;
+	width:30px;
+	height:30px;
+	display:inline-block;
+}
+.pagination .progress{
+	width: 200px;
+	display:inline-block;
+	height: 10px;	
+	background:#e4edf4;
+	padding:0;
+	margin-bottom:11px;
+}
+
+.pagination p{
+	margin-bottom:0;
+	font-size:1.2em;
+}
+
+.pagination .progress-bar{
+	width:3%;
+	height:10px;
+}
+
+/***********SOWNIK WYZWANIA*************/
+
+.paski .btn {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #d9d9d9);
+  background-image: -moz-linear-gradient(top, #ffffff, #d9d9d9);
+  background-image: -ms-linear-gradient(top, #ffffff, #d9d9d9);
+  background-image: -o-linear-gradient(top, #ffffff, #d9d9d9);
+  background-image: linear-gradient(to bottom, #ffffff, #d9d9d9);
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  color: #bc9dd9;
+  font-size: 1em;
+  border: solid #a7b2b8 1px;
+  text-decoration: none;
+  height: 40px;
+  width:96%;
+  margin-left:2%;
+  line-height:20px;
+  font-weight:700;
+  margin-top:-1px;
+  margin-left:-5%;
+}
+
+.paski .btn:hover {
+  background: #ebebeb;
+  text-decoration: none;
+}
+
+.paski .btn img{
+	margin-left: 3%;
+}
+
+.paski .zycie{
+	color:#F7941E;
+	border:solid #F7941E 2px;
+}
+
+.paski .progress {
+	height: 37px;
+}
+
+.paski .kolko{
+	width: 70px;
+	height:70px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #d9d9d9);
+    background-image: -moz-linear-gradient(top, #ffffff, #d9d9d9);
+    background-image: -ms-linear-gradient(top, #ffffff, #d9d9d9);
+    background-image: -o-linear-gradient(top, #ffffff, #d9d9d9);
+    background-image: linear-gradient(to bottom, #ffffff, #d9d9d9);
+	position:relative;
+	top:-20px;
+	right:-10px;
+	z-index:2;
+	font-size:1.0em;
+	color:#f68d10;
+	line-height:70px;
+	font-weight:700;
+        padding: 0px;
+}
+
+.paski .wynik{
+	background:	url(../img/podstrony/Sownik2_11.png) center no-repeat;
+	height:40px;
+	font-size:1.4em;
+	color:#FFFFFF;
+	float:left;
+	margin-left:-35px;
+	margin-top:-2px;
+	line-height:37px;
+	
+}
+
+.paski .progress-bar{
+	width:70%;
+	height:100%;
+	background:#d4b7ec;
+}
+
+.odp input{
+	margin-left:6%;
+	background:#FFFFFF;
+	margin-top: 10px;
+	height:80px;
+	width:92%;	
+	border:1px solid #ccc;
+	padding-top: 10px;
+	font-size: 2.5em;
+	text-align:center;
+	float:right;
+}
+
+.odp .timer time{
+	display:inline-block;
+	background:#f60e1f;
+	margin-right:5%;	
+	float:left;
+	height:80px;
+	margin-top: 10px;
+	width:77%;
+	color:#FFFFFF;
+	font-size: 1.8em;
+	line-height:70px;
+}
+
+.bazy_slow a{
+	display:inline-block;
+	margin-left:3%;
+	width: 94%;
+	height: 40px;
+	border-bottom:1px solid #CCCCCC;	
+	line-height:40px;
+	color:#999;
+	background:url(../img/witryna_glowna/right.png) left no-repeat;
+	text-align:left;
+	padding-left: 15px;
+}
+
+.pierw a{
+	border-top:1px solid #CCCCCC;
+}
+
+
+
+/***********SOWNIK SPELLER*************/
+
+.styled-select select{
+	width: 80%;
+	height: 30px;		
+}
+
+.audio button{
+	float:left;
+	padding-right:30px;
+	background:url(../img/podstrony/glosnik.png) right no-repeat #F7941E;
+	border:none;
+	color:#FFFFFF;
+	height:30px;
+}
+
+.zagadka p{
+	margin-top: 30px;
+	min-height:100px;
+	width:92%;	
+	border:1px solid #ccc;
+	margin-left:4%;
+	padding-top: 15px;
+	font-size: 2.5em;
+	color:#999999;
+}
+
+.odpowiedz input{
+	margin-top: 10px;
+	height:100px;
+	width:92%;	
+	border:1px solid #ccc;
+	padding-top: 15px;
+	font-size: 2.5em;
+	color:#fff;
+	text-align:center;
+	background:#b4bfc8;
+}
+	
+
+/***********SOWNIK TESTY*************/
+
+.wyszukiwarka input{
+	margin-top:20px;
+	height: 40px;
+	width:96%;
+	
+	background:url(../img/podstrony/lupa.png) right no-repeat;
+	border:#CCCCCC 1px solid;
+}
+
+
+#ekran_kursow ul li{
+	width: 98%;
+	margin-left:1%;
+	background:#f1f5f7;
+	height:45px;
+	text-align:left;
+	list-style:none;
+	margin-top: 10px;	
+}
+
+#ekran_kursow ul li:hover{
+
+}
+
+
+#ekran_kursow ul li .numb{
+	display:inline-block;
+	height:45px;	
+	width: 40px;
+	background:#c0c4ca;
+	color:#FFFFFF;	
+	font-size:1.1em;
+	padding-left: 7px;
+	line-height:45px;
+}
+
+#ekran_kursow ul li p{
+	display:inline-block;
+	padding-left:5%;
+	width:70%;
+	color:#999;
+}
+#ekran_kursow ul li p span{
+	color:#747b80;	
+}
+
+#ekran_kursow ul li .ocena, #ekran_kursow ul li .like{
+	display:inline-block;
+	text-align:left;
+	height:45px;
+	width:65px;
+	line-height:45px;
+	border-bottom:#f1f5f7 1px solid;
+	border-top:#f1f5f7 1px solid;
+	color:#f6931e;
+	font-weight:700;
+	padding-left:18px;
+	
+}
+
+#ekran_kursow ul li .ocena{
+	background:url(../img/podstrony/serce2.png) right  no-repeat #FFFFFF;
+}
+
+#ekran_kursow ul li .like{
+	background:url(../img/podstrony/like.png) right no-repeat #FFFFFF;
+}
+
+#ekran_kursow ul li .next{
+	display:inline-block;
+	background:url(../img/podstrony/next.jpg) right no-repeat;
+	width: 35px;
+	height:45px;
+	float:right;	
+}
+
+#ekran_kursow .divider{
+	width: 98%;
+	margin-left:1%;
+	background:#fff;
+	height:15px;
+	margin-top:20px;
+	border-top:#CCCCCC 1px solid;
+}
+
+.polecane h4{
+	text-align:left;
+	margin-left:1%;
+	font-size:1em;
+	color:#666;
+	margin-top: 25px;
+	font-weight:700;	
+	
+}
+	
+
+
+ @media all and (max-width: 1199px) {
+
+#sownik .navigacja ul li {
+	height: 60px;
+	width: 15%;
+	margin-left: 10%;
+	font-size: 1.1em;
+	padding-top: 5px;
+}
+
+#sownik .navigacja ul li:first-child{
+	height: 64px;
+}
+
+#sownik .navigacja ul li:last-child{
+	width: 10%;
+	height: 61px;
+}
+
+.fiszka img:first-child{
+	left: 205px;
+}
+
+.fiszka img:nth-child(2){
+	left: 230px;
+}
+
+.paski .zycie img{
+	float:left;
+}
+
+.paski .zycie{
+	font-size:0.8em;
+}
+
+#ekran_kursow ul li p{
+	width:65%;
+}
+
+.paski .btn {
+	margin-left:0;
+}
+}
+ @media all and (max-width: 991px) {
+
+#sownik .navigacja ul li {
+	height: 60px;
+	margin-left: 6%;
+	font-size: 1em;
+	padding-top: 5px;
+}
+
+#sownik .navigacja ul li:first-child{
+	height: 65px;
+	width: 18%;
+}
+
+#sownik .navigacja ul li:nth-child(2){
+	width: 19%;
+}
+
+.fiszka img:first-child{
+	left: 155px;
+}
+
+.fiszka img:nth-child(2){
+	left: 180px;
+}
+
+.fiszka button{
+	left:30%;
+}
+
+#ekran_kursow ul li p{
+	width:83%;
+}
+
+#ekran_kursow ul li .ocena, #ekran_kursow ul li .like{
+	display:none;
+}
+
+.paski .wynik{
+	margin-left:-25px;	
+}
+
+.col-md-4 button{
+	margin-left: 10px;
+
+}
+
+}
+ @media all and (max-width: 767px) {
+
+#sownik .navigacja ul li {
+	height: 60px;
+	margin-left: 6%;
+	font-size: 1em;
+	padding-top: 10px;
+}
+
+#sownik .navigacja ul li:nth-child(2){
+	width: 22%;
+}
+
+#sownik .navigacja ul li:first-child{
+	height: 61px;
+}
+
+#sownik .navigacja ul li:last-child{
+	width: 10%;
+	height: 60px;
+}
+
+.fiszka img:first-child{
+	left: 35%;
+}
+
+.fiszka img:nth-child(2){
+	left: 40%;
+}
+
+}
+
+
+@media all and (max-width: 650px) {
+#sownik .navigacja ul li:first-child{
+	height: 65px;
+}
+
+}
+
+@media all and (max-width: 551px) {
+#sownik .navigacja ul li:first-child{
+	height: 65px;
+}
+
+.fiszka button{
+	left:20%;
+}
+
+}
+
+@media all and (max-width: 510px)
+{
+#ekran_kursow ul li p{
+	padding-left:2%;
+	font-size:0.9em;
+	width:80%;
+}
+}
+@media all and (max-width: 450px)
+{
+
+#ekran_kursow ul li p{
+	padding-left:2%;
+	font-size:0.9em;
+	width:70%;
+}
+
+}

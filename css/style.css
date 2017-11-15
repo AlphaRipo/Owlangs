@@ -1,0 +1,817 @@
+/*COMMON*/
+
+.clear {
+	clear:both;	
+}
+
+.hidden {
+	text-indent: -999em;
+}
+
+.wrapper{
+	width:1150px;
+	margin:0 auto;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	width: 100%;
+	background: #fff;
+	overflow: scroll;
+	margin: 0 auto;
+	text-align:center;	
+}
+
+/*header*/
+
+header{
+	min-height: 107px;
+	background:url(../img/strona_glowna/background_header.jpg) no-repeat;	
+}
+
+header #logo{
+	float:left;
+	background:url(../img/strona_glowna/logo.png) center no-repeat;
+	width: 28%;	
+	height: 95px;
+	margin-left:16%;
+	margin-right: 15%;
+}
+
+
+header #logowanie li{
+	display:inline;
+	line-height: 95px;	
+	margin-right: 2%;
+	border-bottom:solid 2px;
+}
+
+header #logowanie li:hover{
+	color:#f29220;
+	cursor:pointer;	
+}
+
+/*belka z twarzami - faces*/
+
+#faces{
+	height:85px;
+	background: #ef8b14; /* Old browsers */
+	background: -moz-linear-gradient(left,  #ef8b14 0%, #eea146 51%, #ef8b14 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ef8b14), color-stop(51%,#eea146), color-stop(100%,#ef8b14)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #ef8b14 0%,#eea146 51%,#ef8b14 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #ef8b14 0%,#eea146 51%,#ef8b14 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #ef8b14 0%,#eea146 51%,#ef8b14 100%); /* IE10+ */
+	background: linear-gradient(to right,  #ef8b14 0%,#eea146 51%,#ef8b14 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef8b14', endColorstr='#ef8b14',GradientType=1 ); /* IE6-9 */
+	
+}
+
+#faces li{
+	display:inline;
+	line-height: 85px;	
+	margin-right: 2%;
+}
+
+/*banner ze schematem nauki*/
+
+#banner{
+	background:url(../img/strona_glowna/background_banner.jpg) center no-repeat;
+	height: 570px;	
+}
+
+#banner #e-learning{
+	width:50%;
+	float:left;
+		
+}
+
+#banner #e-learning img{
+	margin-top: 60px;
+	position:absolute;
+	margin-left:-50px;
+	
+}
+
+#banner #e-learning #tlumacz{
+	position:relative;
+	top: 110px;
+	left:150px;	
+}
+
+#banner #e-learning #ucz1{
+	position:relative;
+	top: 40px;
+	left:320px;
+}
+
+#banner #e-learning #zdobywaj{
+	position:relative;
+	top: 400px;
+	left:-300px;
+}
+
+#banner #e-learning #poznawaj{
+	position:relative;
+	top: 370px;
+	left:30px;
+}
+#banner #e-learning #takich{
+	position:relative;
+	top: 368px;
+	left:233px;		
+}
+
+#tlumacz, #ucz1, #zdobywaj, #poznawaj, #takich{
+	font-size: 1.5em;	
+	font-family: 'Marck Script', cursive;
+}
+
+#banner #dolacz{
+	float:right;
+	width:50%;
+	position:relative;
+	margin-top: 15px;
+	
+}
+
+#banner #dolacz #chmura{
+	position:absolute;
+	top:5px;
+	right:1px;
+}
+
+#banner #dolacz h3{
+	position:relative;
+	color:#FFFFFF;
+	font-size: 2.2em;
+	top: 30px;
+	left: 60px;	
+	font-weight: 700;
+}
+
+#banner #dolacz p{
+	position:relative;
+	color:#FFFFFF;
+	font-size: 1.2em;
+	top: 40px;
+	left: 60px;	
+	transform:rotate(-2deg);
+	line-height: 30px;
+}
+
+#banner #dolacz p span{
+	font-size: 1.5em;
+	font-weight: 700;	
+	
+}
+
+
+#banner #formularz{
+	width: 215px;
+	position:absolute;
+	top:255px;
+	left: 160px;
+}
+
+.facebook {
+	width: 100%;
+	-webkit-border-radius: 9;
+	-moz-border-radius: 9;
+	border-radius: 9px;
+	color: #ffffff;
+	background: #3162a2;
+	padding: 3px 5px;
+	text-decoration: none;
+	outline: none;
+	border:none;
+}
+
+.google {
+	width: 100%;
+	-webkit-border-radius: 9;
+	-moz-border-radius: 9;
+	border-radius: 9px;
+	color: #ffffff;
+	background: #f25c58;
+	padding: 2px 5px;
+	text-decoration: none;
+	margin-top: 10px;
+	outline: none;
+	border:none;
+	
+}
+
+.facebook span, .google span {
+	padding-left: 10px;
+	display:inline-block;
+	position:relative;
+	top: -5px;
+	letter-spacing:1px;
+	font-size: 0.9em;
+	font-weight: 600;
+}
+
+#banner #formularz img{
+	position:relative;
+	top: 3px;
+}
+
+#banner #formularz > span{
+	display:block;
+	color:#999999;
+	margin: 15px;
+}
+
+#banner div.form input{
+	width: 195px;
+	height:30px;
+	line-height:30px;
+	-webkit-border-radius: 9;
+	-moz-border-radius: 9;
+	border-radius: 9px;
+	border:1px #f7941e solid;
+	margin-bottom: 5px;
+	outline: none;
+	color: #f7941e;
+	font-weight: 600;
+	padding-left: 15px; 
+}
+#banner ::-webkit-input-placeholder {
+    color: #f7941e;
+	font-weight: 600;
+	padding-left: 10px;
+}
+#banner :-moz-placeholder { /* Firefox 18- */
+    color: #f7941e;
+	font-weight: 600;
+	padding-left: 10px;  
+}
+#banner ::-moz-placeholder {  /* Firefox 19+ */
+    color: #f7941e;
+	font-weight: 600;
+	padding-left: 10px;  
+}
+#banner :-ms-input-placeholder {  
+    color: #f7941e;
+	font-weight: 600;
+	padding-left: 10px; 
+}
+
+.btn-100 { width: 100%; }
+.btn{
+	line-height: 25px;
+	-webkit-border-radius: 9;
+	-moz-border-radius: 9;
+	border-radius: 9px;
+	color: #ffffff;
+	background: #f7941e;
+	padding: 2px 5px;
+	text-decoration: none;
+	margin-top: 2px;
+	font-size:0.9em;
+	font-weight:600;
+	outline: none;
+	border:none;
+}
+
+.facebook:hover,.google:hover, .btn:hover {
+	opacity: 0.8;
+	text-decoration: none;
+	cursor:pointer;
+}
+
+/*SEKCJA Z FILMEM*/
+
+#film{
+	background:url(../img/strona_glowna/background_film.jpg) center no-repeat;
+	height: 1150px;	
+}
+
+#film .wrapper .col1, #film .wrapper .col2, #film .wrapper .col3 {
+	float:left;
+	width:30%;
+	height: 350px;
+	margin-top: 60px;
+}
+
+#film .wrapper .col1{
+	margin-left: 12%;
+	margin-right:-60px;	
+}
+
+#film .wrapper ul{
+	float:left;
+	line-height: 100px;
+}
+
+#film .wrapper ul li{
+	list-style:none;
+	color:#FFFFFF;
+	float:left;
+}
+
+#film .wrapper ul li img{
+	margin-bottom:-28px;
+	margin-right: 10px;	
+}
+
+#film .wrapper h2{
+	font-size: 2em;
+	color:#FFFFFF;	
+	font-weight:200;
+	letter-spacing: 2px;
+	margin-bottom: 50px;
+}
+#film .wrapper h2 span{
+	font-weight: 900;	
+}
+
+video {  
+   width:99%; 
+   max-width:1140px; 
+   height:auto; 
+}
+
+/*Wydarzenia pod filmem*/
+
+#wydarzenia{
+	background:#353535;
+	height: 215px;	
+}
+
+#wydarzenia .wyd{
+	color:#FFFFFF;	
+	text-align:left;
+	margin-left:40%;
+}
+
+#wydarzenia .wyd:first-child{
+	padding-top: 30px;
+}
+
+#wydarzenia .wyd p{
+	display:inline-block;
+	position:relative;
+	top: -35px;
+	left: 10px;
+	line-height: 20px;
+}
+#wydarzenia .wyd span{
+	font-style:oblique;
+	position:relative;
+	top: -35px;
+	left:80px;
+}
+
+/*REJESTRACJA1*/
+
+.rejestracja .wrapper{
+	width:640px;
+	padding-top: 30px;
+}
+
+.rejestracja .wrapper span:first-child{
+	font-size: 2em;
+	letter-spacing: 4px;
+	font-weight:600;
+}
+.rejestracja .wrapper h2{
+	font-size: 1.2em;
+	letter-spacing: 2px;
+	padding-top: 10px;
+	font-weight:600;
+}
+
+.rejestracja .wrapper h2 span{
+	font-size: 1.3em;
+	letter-spacing: 2px;
+	line-height: 40px;
+	font-weight:600;
+}
+
+.rejestracja .wrapper button{
+	margin-top: 30px;	
+	margin-right:10px;
+}
+
+
+.rejestracja .wrapper .facebook, .rejestracja .wrapper .google, .rejestracja .wrapper  .btn{
+	width:34%;
+}
+
+.rejestracja img{
+	position:relative;
+	top: 3px;
+}
+
+.rejestracja input{
+	height:25px;
+	line-height:25px;
+	-webkit-border-radius: 9;
+	-moz-border-radius: 9;
+	border-radius: 9px;
+	border:1px #000 solid;
+	outline: none;
+	color: #000;
+	font-weight: 600;
+	padding-left: 15px; 
+}
+
+.rejestracja .styl {
+	display:block;
+	margin: 10px 0 -10px 0;
+	line-height: 40px;
+	color:#999999;
+}
+
+.rejestracja .rozwijany {
+	margin-bottom: 10px;	
+}
+
+.rejestracja .rozwijany p {
+	text-align:justify;
+	color:#666666;
+	margin:30px;	
+}
+
+.rejestracja .rozwijany .ukryty {
+	display:none;
+}
+
+.rejestracja .rozwijany .pojaw{
+	display:block;
+}
+
+.rejestracja .rozwijany span {
+	display:inline-block;
+	width: 180px;
+	border-top: 1px #999 solid;
+	cursor:pointer;
+	margin-bottom: 10px;	
+}
+
+/*wiadomosci*/
+
+#wiadomosci{
+	min-height: 1700px;	
+}
+
+#wiadomosci .beleczka{
+	height:3px;
+	width: 220px;
+	border-top:	solid 2px #999999;
+	margin: 20px 0;
+}
+
+/*wiadomosci info1*/
+
+#wiadomosci .info1{
+	background:url(../img/strona_glowna/tlo_ludzie.jpg) center no-repeat;
+	position:relative;
+}
+
+#wiadomosci .info1 .wrapper{
+	padding-top: 30px;	
+	min-height: 475px;	
+}
+
+#wiadomosci .info1 .kol1{
+	width: 50%;
+	float:left;
+	min-height: 469px;		
+	background:url(../img/strona_glowna/tablet_long.png) bottom no-repeat;
+	
+}
+
+#wiadomosci .info1 .kol2{
+	width: 50%;
+	float:right;	
+}
+
+
+#wiadomosci .info1 .kol2 h3{
+	text-align: left;
+	margin-top: 80px;
+	font-weight:600;
+	font-size:1.5em;
+	text-transform:uppercase;
+	color:#494949;
+}
+
+#wiadomosci .info1 .kol2 span{
+	display:inline-block;
+	text-align: left;
+	margin-top: 5px;
+	font-size:1.3em;
+	margin-left:-275px;
+	line-height: 29px;
+	color:#494949;
+}
+
+#wiadomosci .info1 .kol2 p{
+	text-align: justify;
+	line-height: 20px;
+	color:#666666;	
+}
+
+/*wiadomosci info2*/
+
+#wiadomosci .info2 .wrapper{
+	padding-top: 30px;	
+	min-height: 375px;	
+}
+
+#wiadomosci .info2 .kol1{
+	width: 50%;
+	float:left;	
+	
+}
+
+#wiadomosci .info2 .kol2{
+	width: 50%;
+	float:right;	
+}
+
+#wiadomosci .info2 .kol1 img{
+	margin-top: 20px;
+}
+
+#wiadomosci .info2 .kol2 h3{
+	text-align: left;
+	line-height: 30px;
+	margin-top: 20px;
+	font-weight:600;
+	font-size:1.5em;
+	text-transform:uppercase;
+	color:#494949;
+}
+
+#wiadomosci .info2 .kol2 span{
+	display:inline-block;
+	text-align: left;
+	margin-top: 5px;
+	font-size:1.3em;
+	margin-left:-250px;
+	line-height: 29px;
+	color:#494949;
+}
+
+#wiadomosci .info2 .kol2 p{
+	text-align: justify;
+	line-height: 20px;
+	color:#666666;	
+}
+
+/*wiadomosci info3*/
+
+#wiadomosci .info3{
+	background:url(../img/strona_glowna/tlo_paski.jpg) center no-repeat;
+}
+
+#wiadomosci .info3 .wrapper{
+	padding-top: 30px;	
+	min-height: 345px;	
+}
+
+#wiadomosci .info3 .kol1{
+	width: 50%;
+	float:left;	
+	
+}
+
+#wiadomosci .info3 .kol2{
+	width: 50%;
+	float:right;	
+}
+
+
+#wiadomosci .info3 .kol1 h3{
+	text-align: right;
+	margin-top: 30px;
+	font-weight:600;
+	font-size:1.5em;
+	text-transform:uppercase;
+	color:#494949;
+}
+
+#wiadomosci .info3 .kol1 span{
+	display:inline-block;
+	text-align: right;
+	margin-top: 5px;
+	font-size:1.3em;
+	margin-right:-212px;
+	line-height: 29px;
+	color:#494949;
+}
+
+#wiadomosci .info3 .kol1 p{
+	text-align:right;
+	line-height: 20px;
+	color:#666666;	
+}
+	
+#wiadomosci .info3 .beleczka{
+	margin-left: 357px;
+		
+}
+/*wiadomosci info4*/
+
+#wiadomosci .info4{
+	background:url(../img/strona_glowna/tlo_paski.jpg) center no-repeat;
+}
+
+#wiadomosci .info4 .wrapper{
+	padding-top: 30px;	
+	min-height: 425px;	
+}
+
+#wiadomosci .info4 .kol1{
+	width: 50%;
+	float:left;	
+	
+}
+
+#wiadomosci .info4 .kol2{
+	width: 50%;
+	float:right;	
+}
+
+#wiadomosci .info4 .kol1 img{
+	margin-top: 20px;
+}
+
+#wiadomosci .info4 .kol2 h3{
+	text-align: left;
+	line-height: 30px;
+	margin-top: 20px;
+	font-weight:600;
+	font-size:1.5em;
+	text-transform:uppercase;
+	color:#494949;
+}
+
+#wiadomosci .info4 .kol2 span{
+	display:inline-block;
+	text-align: left;
+	margin-top: 5px;
+	font-size:1.3em;
+	margin-left:-118px;
+	line-height: 29px;
+	color:#494949;
+}
+
+#wiadomosci .info4 .kol2 p{
+	text-align: justify;
+	line-height: 20px;
+	color:#666666;	
+}
+
+/*KOMENTARZE*/
+
+#komentarze{
+	background:url(../img/strona_glowna/tlo_ludzie_pom.jpg) no-repeat;
+	height: 460px;	
+	position:relative;
+}
+
+#komentarze .comment{
+	margin-top: 60px;
+	width:21%;
+	float:left;
+	margin-left: 4%;
+	color:#FFFFFF;
+	font-size: 0.9em;
+}
+
+#komentarze #fisrtcomm {
+	margin-left: 1%;
+}
+
+#komentarze .comment p{
+	margin-top: 30px;
+	text-align:justify;
+	line-height: 20px;	
+}
+
+#komentarze .comment span {
+	display:inline-block;
+	position:absolute;
+	bottom: 80px;
+	text-indent: -200px;
+}
+
+@-moz-document url-prefix(){ 
+
+#komentarze .comment span {
+        text-indent: -140px !important;
+    }
+}
+
+/*REJESTRACJA CZARNA*/
+
+#czarny{
+	background:#323232;	
+}
+
+#czarny  h2, #czarny  span {
+	color:#FFFFFF;
+}
+
+#czarny  h2{
+	font-size: 1.1em;
+	margin: 15px 0;	
+}
+
+#czarny .wrapper button{
+	margin-left: 15px;
+}
+
+
+#czarny .wrapper .facebook, #czarny .wrapper .google, #czarny .wrapper  .btn{
+	height: 40px;
+}
+
+#czarny img{
+	position:relative;
+	top: 2px;
+}
+
+#czarny input{
+	height:35px;
+	line-height:35px;
+	margin-left: 7px;
+}
+#czarny .wrapper  .btn{
+	margin-left: 7px;
+}
+
+#czarny .styl {
+	color:#999999;
+}
+
+.rejestracja .rozwijany {
+	margin-bottom: 10px;	
+}
+
+#czarny .rozwijany p {
+	text-align:justify;
+	color:#999;	
+	margin:30px;	
+}
+
+
+#czarny .rozwijany span {
+	display:inline-block;
+	width: 180px;
+	border-top: 1px #999 solid;
+	cursor:pointer;
+	margin-bottom: 10px;
+	color:#999;	
+}
+
+/*FOOTER*/
+
+footer{
+	background:#323232;
+	margin-top:-20px;
+	padding-bottom: 30px;
+}
+
+
+footer nav ul li{
+	display:inline;
+	padding-left: 2%;	
+}
+footer nav ul li a {
+	color:#FFFFFF;
+	font-size:0.9em;	
+}
+
+footer nav ul li a:hover {
+	color:#f29220;;	
+}
+
+footer #social{
+	margin-top: 40px;	
+}
+
+footer #social li{
+	display:inline;
+	padding-right: 4%;	
+}
+
+footer #social li:hover{
+	opacity:0.8;	
+	
+}
+footer #social li:first-child{
+	padding-left: 4%;	
+}
+
+footer span{
+	display:block;
+	margin-top: 40px;
+	color:#999;	
+}
+

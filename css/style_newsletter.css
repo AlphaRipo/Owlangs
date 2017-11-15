@@ -1,0 +1,233 @@
+/*COMMON*/
+
+.clear {
+	clear:both;	
+}
+
+.hidden {
+	text-indent: -999em;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif!important;
+	font-size: 12px;
+	width: 100%;
+	font-weight: 400!important;
+	background: #fff;
+	overflow-x:hidden;
+	margin: 0 auto;
+	text-align:center;	
+}
+
+.pokazany{
+	display:block;	
+	
+}
+
+/*header*/
+
+header{
+	min-height: 130px;
+	background:url(../img/strona_glowna/background_banner.jpg) repeat-y;
+	padding-top:10px;	
+}
+
+header #logo{
+	background:url(../img/strona_glowna/logo_m.png) center no-repeat;
+	width: 100%;	
+	height: 95px;
+	
+}
+
+#logowanie{
+	background:url(../img/strona_glowna/background_banner.jpg) repeat-y;
+	padding-bottom: 50px;	
+}
+
+.text-danger {line-height:30px;}
+.text-success {line-height:30px;}
+.text-primary {line-height:30px;}
+.ukryty{ display:none; }
+
+#logowanie h3{
+	font-size: 3em;	
+	margin-top: 30px;
+	color:#6f6f6f!important;
+}
+
+#logowanie input{
+	height:50px;
+	line-height:30px;
+	-webkit-border-radius: 9;
+	-moz-border-radius: 9;
+	border-radius: 9px;
+	border:1px #ccc solid;
+	margin-bottom: 5px;
+	outline: none;
+	font-weight: 600;
+	padding-left: 15px;
+	text-align: center; 
+}
+
+.btn{
+	width: 35%;
+	font-size:1.5em;
+	font-weight:600;
+	margin: 10px auto;
+}
+
+/*SEKCJA BLACK*/
+
+#black{
+	width:100%;
+	background:url(../img/strona_glowna/background_film.jpg) center no-repeat;
+	min-height:320px;
+	color:#fff;
+}
+
+#black h3{
+	text-align: center;
+	font-weight:600;
+	font-size:1.5em;
+}
+
+
+#black h4{
+	text-align: center;
+	font-size:1.3em;
+	line-height: 25px;
+}
+
+#black p{
+	text-align: justify;
+	line-height: 20px;
+	width: 90%;
+}
+
+#black #button p {
+	line-height: 50px;
+	font-size: 1.5em;
+	font-weight:700;	
+	text-align:center;
+	padding-left: 25px;
+}
+
+#black button {
+	width: 242px;
+	height: 50px;
+	color: #684011;
+	text-decoration: none;
+	margin:  20px auto;
+	font-size:1.5em;
+	outline: none;
+	border:none;
+	background:url(../img/strona_glowna/botton_m.png) center no-repeat;
+	line-height: 50px;
+	font-size: 1.5em;
+	font-weight:700;	
+}
+
+#black button:hover {
+	opacity: 0.9;
+	text-decoration: none;
+	cursor:pointer;
+}
+
+/*FOOTER*/
+
+footer{
+	background:#fff;
+	margin-top:30px;
+	padding-bottom: 30px;
+}
+
+footer nav ul li{
+	display:inline;
+}
+footer nav ul li a {
+	color:#666;
+	font-size:1.1em;	
+}
+
+footer nav ul li a:hover {
+	color:#f29220;
+	text-decoration:none;	
+}
+
+footer span{
+	display:block;
+	margin-top: 20px;
+	color:#999;	
+}
+
+@media all and (max-width: 620px)
+{
+#formularz{
+	width: 90%;
+}
+
+footer nav ul li{
+	display:inline;
+	padding-right: 3%;	
+}
+
+}
+
+@media all and (max-width: 449px)
+{
+
+header #logo{
+	background:url(../img/strona_glowna/logo.png) center no-repeat;
+}
+
+.ukryty{
+	display:block;
+	font-size: 2em;
+	margin: 5px 0; 	
+}
+
+#logowanie form input{
+	width: 65%;
+
+}
+
+.btn{
+	width: 55%
+}
+
+#black h3{
+	font-size:1.3em;
+}
+
+
+#black h4{
+	font-size:1.1em;
+}
+
+#black h3, #black h4, #black p{
+	padding-left:1%;	
+}
+
+footer nav ul li{
+	display:inline;
+	padding-right: 2%;	
+}
+
+footer nav ul li:last-child{
+	display:inline;
+	padding-right: 0;	
+}
+
+footer nav ul li a {
+	color:#666;
+	font-size:0.79em;	
+}
+
+}
+

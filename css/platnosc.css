@@ -1,0 +1,604 @@
+	
+
+/*header*/
+
+
+
+/*VIP*/
+
+.vip {
+	margin-bottom: 10px;
+	width:100%;
+	background:#ffffff;
+}
+
+.vip h2{
+	color: #999999;
+	font-size: 2em;
+	margin-top:40px;
+	font-weight:200;
+}
+
+.vip h2 span{
+	font-weight:700;	
+}
+
+.vip .lightblue, .vip .green, .vip .blue{
+	margin: 40px auto 10px auto;	
+	
+}
+
+.vip .lightblue .naglowek{
+	background:#fff;
+	height:160px;
+	width: 90%;
+	margin:0 auto;
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-top-left-radius: 10px;
+	border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-top-right-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top: 15px solid #6eb6f0;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom: 1px solid #6eb6f0;
+		
+}
+
+.vip .lightblue .naglowek h3{
+	font-size: 5em;
+	font-weight:700;
+	padding-top: 20px;	
+	color: #6eb6f0;
+}
+
+.vip .lightblue .naglowek h3 span, .vip .green .naglowek h3 span, .vip .blue .naglowek h3 span{
+	font-size:0.4em;
+	position:relative;
+	top:-30px;
+	font-weight:400;
+	margin-left:5px;
+}
+
+.vip .lightblue .srodek{
+	background: #fff;
+	height:70px;
+	width: 90%;
+	margin:0 auto;
+	border-bottom: 1px solid #6eb6f0;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;	
+}
+
+.vip .lightblue .srodek span{
+	padding-top: 10px;
+	display:block;
+	color:#6eb6f0;
+	font-size: 2.1em;
+	font-weight:400;
+}
+
+.vip .lightblue .dol, .vip .green .dol, .vip .blue .dol{
+	background: #fff;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	height:170px;
+	width: 90%;
+	margin:0 auto;	
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-bottom-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-bottom-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom: 1px solid #ccc;
+	
+}
+
+.vip .lightblue .dol p{
+	color: #6eb6f0;
+	padding-top: 20px;
+	margin-bottom:-40px;	
+}
+
+.vip .lightblue .dol button{
+	background: #6eb6f0;
+	margin-top: 50px;
+	width: 70%;
+	font-size:2em;
+	outline: none;
+	border:none;
+	font-weight:700;
+	color: #fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.vip .lightblue .dol button img, .vip .green .dol button img, .vip .blue .dol button img{
+	margin-top:-10px;
+	padding-left: 5px;	
+}
+
+.vip .lightbluee .dol button:hover, .vip .green .dol button:hover, .vip .blue .dol button:hover{
+	opacity: 0.8;	
+}
+
+.vip .green .naglowek{
+	background:#89e66f;
+	height:160px;
+	width: 90%;
+	margin:0 auto;
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-top-left-radius: 10px;
+	border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-top-right-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top: 15px solid #78cf60;
+	border-left:1px solid #78cf60;
+	border-right:1px solid #78cf60;
+		
+}
+
+.vip .green .naglowek h3{
+	font-size: 5em;
+	font-weight:700;
+	padding-top: 20px;	
+	color: #fff;
+}
+
+.vip .green .srodek{
+	background: #89e66f;
+	height:70px;
+	width: 90%;
+	margin:0 auto;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;	
+}
+
+.vip .green .srodek img{
+	
+}
+
+.vip .green .srodek span{
+	padding-top: 10px;
+	display:block;
+	color:#fff;
+	font-size: 2.1em;
+	font-weight:400;
+}
+
+
+.vip .green .dol p{
+	color: #78cf60;
+	padding-top: 20px;
+	margin-bottom:-40px	
+}
+
+.vip .green .dol button{
+	background: #78cf60;
+	margin-top: 65px;
+	width: 70%;
+	font-size:2em;
+	outline: none;
+	border:none;
+	font-weight:700;
+	color: #fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.vip .blue .naglowek{
+	background:#fff;
+	height:160px;
+	width: 90%;
+	margin:0 auto;
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-top-left-radius: 10px;
+	border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-top-right-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top: 15px solid #5f77b1;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom: 1px solid #5f77b1;
+		
+}
+
+.vip .blue .naglowek h3{
+	font-size: 5em;
+	font-weight:700;
+	padding-top: 20px;	
+	color: #5f77b1;
+}
+
+
+.vip .blue .srodek{
+	background: #fff;
+	height:70px;
+	width: 90%;
+	margin:0 auto;
+	border-bottom: 1px solid #5f77b1;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;	
+}
+
+.vip .blue .srodek span{
+	padding-top: 10px;
+	display:block;
+	color:#5f77b1;
+	font-size: 2.1em;
+	font-weight:400;
+}
+
+
+.vip .blue .dol p{
+	color: #5f77b1;
+	padding-top: 20px;
+	margin-bottom:-40px;	
+}
+
+.vip .blue .dol button{
+	background: #5f77b1;
+	margin-top: 50px;
+	width: 70%;
+	font-size:2em;
+	outline: none;
+	border:none;
+	font-weight:700;
+	color: #fff;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
+
+
+/*TABELA*/
+
+#tabela{
+	margin-top: 30px;
+	width:100%;
+	background:#e8ecf0;
+	padding:40px 0;
+}
+
+.korzysci {
+	margin:0px;
+	padding:0px;
+	width:90%;
+	margin:0 auto;
+
+}
+
+.korzysci table{
+    border-collapse: collapse;
+    border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}
+
+.korzysci table tr:first-child td{
+	font-size:1.8em;	
+	font-weight:200;
+}
+
+.korzysci table  td span{
+	font-weight:900;	
+}
+
+.korzysci td{
+	vertical-align:middle;
+	border:none;
+	border-width:0px 1px 1px 0px;
+	text-align:center;
+	padding:12px;
+	color:#999;
+}
+
+.korzysci tr:last-child td{
+	border-width:none;
+}
+
+.korzysci tr td:last-child{
+	border-width:none;
+}
+
+.korzysci tr:last-child td:last-child{
+	border-width:none;
+}
+
+.korzysci tr:first-child td{
+	background:-o-linear-gradient(bottom, #503767 5%, #503767 100%);	
+	background:-moz-linear-gradient( center top, #503767 5%, #503767 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#503767", endColorstr="#503767");	
+	background-color:#503767;
+	border:none;
+	text-align:center;
+	border-width:none;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#000;
+}
+
+.korzysci tr:first-child td:first-child{
+	border-width:none;
+}
+.korzysci tr:first-child td:last-child{
+	border-width:none;
+}
+
+/*FAQ*/
+
+#faq{
+	margin: 20px 0;
+}
+
+#faq h2{
+	margin-bottom: 30px;
+	font-weight:200;
+}
+#faq h2 span{
+	font-weight:700;
+}
+
+/*OPINIE*/
+
+#opinie{
+	width:100%;
+	background:#e2e5e8;	
+}
+
+#opinie h2{
+	margin-bottom: 30px;
+	font-weight:200;
+}
+#opinie h2 span{
+	font-weight:700;
+}
+#opinie #pudlo{
+	padding-top:50px;
+	padding-bottom:50px;	
+}
+
+#opinie .container{
+	background:#ffffff;	
+}
+
+#opinie .container .row{
+	padding: 20px 0;	
+}
+#opinie .container .nieb{
+	background:	#e2e5e8;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding: 10px 0;
+}
+
+#opinie .container .col-xs-11 img{
+	display:inline-block;
+}
+
+#opinie .container .col-xs-11 span{
+	display:inline-block;
+	padding-bottom:10px;
+	
+}
+#opinie .container .col-xs-11 p{
+	text-align:right;
+}
+
+#opinie .container .nieb p{
+	text-align:left;
+}
+#opinie .container .ukryty{
+	display:none;		
+}
+#opinie .container .pojaw{
+	display:block;		
+}
+
+#opinie .container .rozwin{
+	margin-top:30px;
+	margin-bottom:20px;
+	cursor:pointer;	
+}
+#opinie .container .rozwin:hover{
+	color:#ffa234;
+}
+
+#opinie .container .belka{
+	background:url(../img/platnosc/belka.png) center no-repeat;
+	height:40px;
+	width: 100%;
+}
+
+/*baner*/
+
+#guaranteed1 {
+    font-size: 24px!important;
+}
+
+#guaranteed2 {
+    font-size: 18px!important;
+}
+
+#baner{
+	width:100%;
+	background:#e2e5e8;
+}
+
+#baner #baner_zdj{
+	background-image: url(../img/platnosc/baner.jpg);
+        background-repeat:no-repeat;
+	background-size: cover;
+        height: 160px;
+        margin: 0px!important;
+}
+
+#baner #baner_zdj h2{
+	margin-top:40px;
+	color:#FFFFFF;
+}
+
+#baner #baner_zdj h2 span{
+	color:#ffa234;
+	font-weight:700;
+}
+#baner #baner_zdj p {
+	color:#FFFFFF;
+	font-size: 2em;
+	letter-spacing:2px;
+}
+#baner #baner_zdj p span{
+	font-weight:700;
+}
+
+
+#baner .col-sm-6{
+	margin-top: 30px;	
+}
+#baner .col-sm-6 p{
+	line-height: 30px;
+	color:#999999;
+	text-align:right;
+}
+
+#baner #prezes{
+	margin-top: 30px;	
+}
+
+/*footer*/
+
+@media all and (max-width: 1340px)
+{
+.wrapper{
+	width:100%;
+
+}
+
+
+}
+
+@media all and (max-width: 1140px)
+{
+.wrapper{
+	width:95%;
+
+}
+}
+
+
+@media all and (max-width: 991px)
+{
+.wrapper{
+	width:85%;
+
+}
+
+
+.vip .lightblue, .vip .green, .vip .blue{
+	width: 60%;	
+	margin-bottom:5px;
+	
+}
+
+.korzysci {
+	width:100%;
+}
+
+#baner #baner_zdj h2{
+	margin-top:20px;
+	font-size: 1.8em;
+	text-align:left;
+}
+#baner #baner_zdj p {
+	font-size: 1.5em;
+	letter-spacing:1px;
+	text-align:left;
+}
+	
+	
+}
+
+
+@media all and (max-width: 767px)
+{
+	
+.wrapper{
+	width:98%;
+
+}
+
+#opinie .container .col-xs-11 p{
+	text-align:left;
+}
+
+#opinie .container .nieb p{
+	text-align:left;
+}
+
+#opinie .container .col-xs-11 span{
+	margin-top:10px;
+	
+}
+
+#baner #baner_zdj{
+	background:#4e3b83;	
+	height: 200px;
+}
+
+#baner #baner_zdj h2{
+	margin-top:40px;
+	font-size: 2em;
+	text-align:center;
+}
+#baner #baner_zdj p {
+	font-size: 2em;
+	letter-spacing:2px;
+	text-align:center;
+}
+		
+}
+
+
+@media all and (max-width: 510px)
+{
+
+
+#baner #prezes p{
+	text-align:center;
+	font-size: 0.8em;
+}
+
+.vip .lightblue, .vip .green, .vip .blue{
+	width: 100%;	
+	
+}
+
+}
+@media all and (max-width: 400px)
+{
+
+#baner #baner_zdj h2{
+	margin-top:40px;
+	font-size: 1.5em;
+	text-align:center;
+}
+#baner #baner_zdj p {
+	font-size: 1.5em;
+	letter-spacing:2px;
+	text-align:center;
+}
+
+footer p{
+	font-size:0.8em;
+}
+}
